@@ -1,0 +1,91 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+/* * {
+  outline: red 1px solid;
+} */
+
+.conta {
+  display: flex;
+  justify-content: center;
+}
+
+.colum{
+  text-align: center;
+}
+
+.conta2 {
+  width: 100px;
+  margin: 8px;
+}
+
+.h1 {
+  text-align: center;
+}
+
+.boton {
+  width: 100px;
+  height: 50px;
+  margin-bottom: 8px;
+}
+
+.shad{
+  box-shadow: 2px 2px black;
+}
+
+.ama {
+  background-color: #ffd966;
+}
+
+.blu {
+  background-color: #597eaa;
+  color: aliceblue;
+}
+
+.redd {
+  background-color: #e06666;
+  color: aliceblue;
+}
+
+.gree {
+  background-color: #93c47d;
+}
+
+#barra {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.login {
+  margin-top: 20px;
+}
+
+.marg {
+  margin-top: 20px;
+}
+
+.validat {
+  color: red;
+  font-weight: 500;
+}
+
+.martop {
+  margin-top: 8px;
+}

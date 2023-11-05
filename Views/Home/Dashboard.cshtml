@@ -1,0 +1,26 @@
+
+
+<h1 class="h1">@ViewData["NumeroPrincipal"]</h1>
+<div class="conta">
+    <div class="conta2">
+        <form method="POST" action="/dashboard">
+            <input type="hidden" name="operation" value="increment" />
+            <button class="boton ama shad" type="submit">+1</button>
+        </form>
+        <form method="POST" action="/dashboard">
+            <input type="hidden" name="operation" value="multiply" />
+            <button class="boton redd shad" type="submit">x2</button>
+        </form>
+    </div>
+    <div  class="conta2">
+        <form method="POST" action="/dashboard">
+            <input type="hidden" name="operation" value="decrement" />
+            <button class="boton blu shad" type="submit">-1</button>
+        </form>
+        
+        <form method="POST" action="/dashboard">
+            <input type="hidden" name="operation" value="random" />
+            <button class="boton gree shad" type="submit">Random</button>
+        </form> 
+    </div>
+</div>

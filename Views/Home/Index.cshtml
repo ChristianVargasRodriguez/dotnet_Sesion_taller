@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model Login
+<div class="colum">
+    <h1>Welcome!</h1>
+    <h2>Please give your name:</h2>
+    <div>
+        <form method="POST" action="/">
+            <div class="divext">
+                <input class="marg" type="text" asp-for="Name">
+            </div>
+            <div>
+                <span class="validat" asp-validation-for="Name"></span>
+            </div>
+            <button class="login gree shad">Submit</button>
+        </form>
+        
+    </div>
+</div>
